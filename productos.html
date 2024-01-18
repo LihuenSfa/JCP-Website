@@ -9,7 +9,9 @@
     <link rel="stylesheet" href="./css/products-style.css">
 </head>
 <body>
-    <div class="container border-bottom border-2">
+
+    <!--  Header y Navbar  -->
+    <div class="container">
         <div class="row">
             <div class="col-8">
                 <h4>Logo</h4>
@@ -27,17 +29,36 @@
         </div>
     </div>
 
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <h1>Revise nuestro catálogo</h1>
-            </div>
-            <div class="col">
-                <img src="./img/topcon-is.jpg" alt="">
+    <!-- Hero (imagen y botón) -->
+    <div class="container-fluid fondo-hero">
+        <div class="container cont-hero">
+            <div class="row">
+                <div class="col">
+                    <h1>Revise nuestro catálogo</h1>
+                    <button class="default-btn">abajo</button>
+                </div>
+                <div class="col">
+                    <img src="./img/topcon-is.jpg" alt="">
+                </div>
             </div>
         </div>
     </div>
 
+    <!-- Productos (botones y swiper) -->
+    <div class="container-fluid fondo-productos">
+        <div class="container cont-productos">
+            <div class="row">
+                <div class="col cont-botones">
+                    <button class="default-btn">Teodolitos</button>
+                    <button class="default-btn">Estaciones totales</button>
+                    <button class="default-btn">Niveles</button>
+                    <button class="default-btn">Accesorios</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Agregar swiper al contenedor de productos -->
     <div id="slider2" class="container">
         <div class="row">
             <div class="col">
@@ -60,28 +81,39 @@
         </div>
     </div>
 
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <h4>JCP INREP S.R.L</h4>
-                <h5>jcinrep@gilmail.com</h5>
-                <h5>221-621-8741</h5>
-                <h5>221-621-8741</h5>
-                <h5>221-621-8741</h5>
+    <div class="container-fluid fondo-footer">
+        <div class="container cont-footer">
+            <div class="row">
+                <div class="col">
+                    <h5>J.C.P Inrep S.R.L</h5>
+                    <h6>Nuestros Servicios</h6>
+                    <h6>Sobre Nosotros</h6>
+                </div>
+                <div class="col">
+                    <h5>Nuestros Productos</h5>
+                    <h6>Equipos</h6>
+                    <h6>Accesorios</h6>
+                </div>
             </div>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <h6>&copy; JCP INREP 2024. All rights reserved.</h6>
+            <div class="row">
+                <div class="col">
+                    <h5>Contacto</h5>
+                    <h6>jcinrep@gilmail.com</h6>
+                    <h6>221-621-8741</h6>
+                    <h6>221-621-8741</h6>
+                </div>
+                <div class="col">
+                    <h5>Nuestras Redes</h5>
+                    <h6>Feisbuk</h6>
+                    <h6>Youtube</h6>
+                    <h6>Linkedin</h6>
+                </div>
             </div>
-            <div class="col">
-                <h6>Logo</h6>
-            </div>
-            <div class="col">
-                <h6>Julio Bayletti 360, San Borja.<br>Lima, Perú</h6>
+            <div class="row final-footer">
+                <div class="col">
+                    <p>Copyright &copy; 2024, JCP Inrep SRL. Todos los derechos reservados</p>
+                    <p>Av. Julio Bailetti 360. Lima, Perú.</p>
+                </div>
             </div>
         </div>
     </div>
