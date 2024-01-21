@@ -64,3 +64,18 @@ body{
     padding-bottom: 128px;
     border-bottom: 2px solid #0F141825;
 }
+
+.fondo-footer{
+    background-color: #0F1418;
+    color: #FFFFFF;
+    padding-top: 16px;
+}
+
+.cont-footer h6{
+    color: #FFFFFF80;
+}
+
+.cont-footer .final-footer .col{
+    display: flex;
+    justify-content: space-between;
+}
